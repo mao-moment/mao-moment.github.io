@@ -1,37 +1,76 @@
-<center><a><img src="images/nasa-openscapes.png" alt="NASA logo to left of Openscapes logo" width="300px"/></a></center>
+---
+title: "MOMENT Lab"
+title-block-banner: false
+---
 
-<center>
+# MOMENT Lab
 
-<h1>NASA Openscapes</h1>
+## Mobile, Optimized, and Momentary Interventions for Health Equity
 
-</center>
+### Right support. Right person. Right moment.
 
-<br>
+The MOMENT Lab develops and evaluates adaptive digital health and communication interventions designed to respond to individuals' changing needs, contexts, and risks over time.
 
-Earth science is changing. We support scientists using data from NASA Earthdata served from the Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.
+Our work integrates **digital health, adaptive interventions, health communication, behavioral science, and artificial intelligence** to improve cancer prevention and care, with a particular focus on populations and communities experiencing health disparities.
 
-We are influenced and inspired by many leaders and community organizers, particularly in the climate and get out the vote movements. That means, we know this isn't just about us or an effort we can do alone. We are always looking to learn from, with, and for others.
+We study how health needs change across people, places, and moments—and how interventions can adapt in response.
 
-**News and Upcoming Events:**
+## Our Mission
 
-- [Openscapes Community Call: Open Communities in the age of AI](news/2026-10-01-community-call-open-communities-ai/), Thursday, October 1, 2026. See post for speakers, details and free registration.
+Our mission is to develop **timely, tailored, and scalable health interventions** that improve access to prevention and care and reduce health disparities.
 
-- [NASA Openscapes Suborbital Champions Coworking Sessions](news/2026-08-18-coworking-nasa-champions-2026/). EVS-4 teams, please join us for further support in Coworking Fall 2026!
+We aim to move beyond one-size-fits-all approaches by identifying:
 
-  - NASA Openscapes supports different suborbital science groups leveraging their expertise and programming - [2026 Champions Recap](news/2026-07-23-nasa-champions-2026/)
+- **when** support is needed,
+- **what** type of support is most appropriate,
+- **how** that support should be delivered, and
+- **for whom** different intervention strategies work best.
 
-- [Finding Solutions Faster by Hacking on Ideas with Openscapes at ESIP](news/2026-09-02-esip-hacking-on-ideas)
+## What We Do
 
-- Recording & resources from [Greg Leptoukh Lecture Reprise by Julie Lowndes](news/2026-01-15-agu-leptoukh-award-julie-lowndes/)
+### Understand the Moment
 
-- Recent workshops
+We use longitudinal and real-time data to understand how psychological, behavioral, social, and environmental factors shape health behaviors and healthcare engagement.
 
-  - [Airborne Data Applications for Invasive Species Mapping](news/2025-09-30-ornl-arset-workshop/)
+Our work includes approaches such as ecological momentary assessment (EMA), intensive longitudinal data, and dynamic risk modeling.
 
-Learn about our recent work: [News](news.qmd) • [Presentations](/about.qmd#slides) • [Flywheel Preprint](https://nasa-openscapes.github.io/about.html#flywheel-preprint) • [White Paper: The Value of Hosted JupyterHubs](https://nasa-openscapes.github.io/about.html#white-paper-value-of-hosted-jupyterhubs)
+### Adapt to the Moment
 
-![](images/earthaccesslogo.png){fig-alt="hexagonal earthaccess logo, an illustrated earth as pixels with blue text arcing across" fig-align="left" width="30"} [earthaccess](https://earthaccess.readthedocs.io/en/latest/) python library • [Earth Science Data Simplified](https://www.earthdata.nasa.gov/learn/blog/earthaccess) (NASA Earthdata blog!)
+We develop interventions that adapt the **timing, content, intensity, and mode of support** based on individuals' changing needs.
 
-![](images/openscapes_hex.png){fig-alt="hexagonal Openscapes logo" fig-align="left" width="30"} [openscapes.cloud](https://openscapes.cloud) - A central location for Openscapes JupyterHub access and fledging information.
+Our work includes:
 
-Project announcements: [NASA](https://earthdata.nasa.gov/learn/openscapes) • [Openscapes](https://www.openscapes.org/blog/2021/03/10/nasa-announcement/) • Please connect with us on Mastodon [\@openscapes\@fosstodon.org](https://fosstodon.org/@openscapes) or join [our newsletter](https://docs.google.com/forms/d/e/1FAIpQLSdgVXRp3V-w94GPWkR31RUfyBl37EphdQSlCOcnyeNlf8OLWw/viewform)
+- Just-in-time adaptive interventions (JITAIs)
+- Mobile health interventions
+- Adaptive messaging
+- Conversational agents and chatbots
+- AI-supported health communication
+- Digital and human-supported intervention models
+
+### Advance Health Equity
+
+We focus on developing accessible and scalable approaches for populations that experience barriers to prevention, screening, treatment, and supportive care.
+
+Our research particularly emphasizes rural, socioeconomically disadvantaged, and medically underserved populations.
+
+## Research Areas
+
+Our current research spans several interconnected areas:
+
+- Cancer prevention and early detection
+- Tobacco cessation
+- Colorectal cancer screening
+- Digital health and mHealth
+- Adaptive interventions
+- Ecological momentary assessment
+- Tailored health communication
+- Artificial intelligence in health communication
+- Health disparities and health equity
+
+## Our Approach
+
+The MOMENT Lab brings together behavioral science, communication science, data science, and digital health to answer a central question:
+
+> **How can we deliver the right support to the right person at the right moment?**
+
+Our long-term goal is to develop intervention systems that are responsive to people's real-world experiences while remaining practical, scalable, and equitable.
