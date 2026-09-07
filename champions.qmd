@@ -1,0 +1,98 @@
+---
+title: "NASA Openscapes Champions Program"
+description: |
+  NASA Openscapes Champions is a mentorship and professional development opportunity for research teams using data from NASA Distributed Active Archive Centers (DAACs) and interested in open science and migrating their analytical workflows to the cloud. 
+---
+
+**[Signups are open](https://nasa-openscapes.github.io/news/2026-06-03-suborbital-champions/) for the Spring 2026 Champions Cohort!**
+
+## Overview
+
+[**Openscapes**](https://openscapes.org) is an approach and a movement for doing better science in less time[^1],[^2]. We help research groups reimagine data analysis, develop modern skills that are of immediate value to them, and cultivate collaborative research communities. Openscapes' mentorship and community engagement approaches center on open data science as kinder science[^3], enabling increased efficiency and resilience for teams so that their work has more enduring impact.
+
+[^1]: Robinson & Lowndes. [The Openscapes Flywheel: A framework for managers to facilitate and scale Open science practices](https://eartharxiv.org/repository/view/4560/), preprint, 2022.
+
+[^2]: Lowndes et al. [Our path to better science in less time using open data science tools](https://nature.com/articles/s41559-017-0160), Nature Ecology & Evolution, 2017.
+
+[^3]: Lowndes. [Open software means kinder science](https://blogs.scientificamerican.com/observations/open-software-means-kinder-science), Scientific American, 2019.
+
+[**Openscapes Champions**](https://openscapes.org/champions) is a remote-by-design mentorship program for environmental and Earth science research teams to explore open data science practices. **For NASA Openscapes, participants also spend time experimenting and planning what their analytical workflows with NASA Earthdata look like in the Cloud**.
+
+[**NASA Openscapes**](https://nasa-openscapes.github.io) is a project to support scientists using data from NASA's Earth Observing System Data and Information System (EOSDIS) Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud. As part of this work, we will offer the Openscapes Champions program several times from 2024-2026.
+
+<center><img src="images/nasa-openscapes.png" width="300px"/></center>
+
+
+<!---
+
+## Champions Program Details
+
+Our goals continue to be to expand knowledge and use of [NASA Earthdata](https://www.earthdata.nasa.gov/), building on momentum behind the [`earthaccess`](https://www.earthdata.nasa.gov/data/tools/earthaccess) python library and workflows in the Cloud.
+
+**In Fall 2025 on Nov 13-14, we led 1 Community Call + 1 Coworking session**: a welcome to NASA Earthdata and `earthaccess`. Participants contributed at the level they chose - on either the Community Call, or the Coworking session, or both.
+
+We've published a summary post that includes links to the recording, slides, and notes: [Thoughts from NASA Champions 2025 - A welcome to NASA Earthdata and earthaccess](https://nasa-openscapes.github.io/news/2025-11-27-nasa-champions-2025-summary/).
+
+<!---
+-   **Dates:** November 13 & 14, 2025
+-   **Times:** 10:00am - 1:00 pm Pacific Time
+-   **Where:** remotely, via [Zoom](https://zoom.us/meeting/register/xqsatMPHT4qhp8l3CDGwgA)
+-   **Cost:** Free; this opportunity is supported by NASA funding to Openscapes
+
+### Is this for me?
+
+We are designing this to be valuable across many skillsets and experience levels, so whether you feel like you know a lot or a little, you are welcome!
+
+-   Yes, if you’re using (or want to use) NASA Earthdata and wondering how to access it more efficiently!
+-   Also yes, if you support users via user services, help desks, forums, or engineering and are curious about how to support users and get involved with the earthaccess community!
+-   PI, graduate student, user, developer.
+
+### Registration
+
+**Register (free) via [Zoom](https://zoom.us/meeting/register/xqsatMPHT4qhp8l3CDGwgA).**
+--->
+
+
+```{=html}
+<!---
+**This NASA Openscapes Champions Cohort will run from April-May 2024!** We will meet as a cohort five times over two months, on alternating Wednesdays, with additional optional coworking times. 
+
+-   **Dates:** April 3, 17, May 1, 15, 29.
+-   **Times:** 10:00-11:30 am Pacific Time
+-   **Where:** remotely, via Zoom
+-   **What we learn:** details coming soon, see the [2023 cohort webpage](https://nasa-openscapes.github.io/2023-nasa-champions/)
+-   **Who:** Cohort of 7 research groups that work with NASA Earthdata and interested in workflows in the Cloud. Each team consists of a team lead (faculty, principal investigator, etc) and up to 4 team members of your choice (graduate students, post docs, research techs, etc). Teams can also be collaborating in other ways and do not need to be a formal research group.
+-   **Cost:** Free; this opportunity is supported by NASA funding to Openscapes
+-   **Expected time commitment:** 8hrs/month for 2 months is a minimum expected time commitment. This accounts for 3 hours/month of synchronous Cohort Calls, optional Coworking hours, and team Seaside Chats where you plan with your research group to strengthen shared workflows.
+
+## Nominate your team for Spring 2024
+
+**Nominate your team by completing [this Google Form](https://forms.gle/N5TuCwUXQPipL8Y77) by March 19, 2024** - date extended. This opportunity is open only to research groups that work with data from [NASA Data Centers [DAACs]](https://www.earthdata.nasa.gov/eosdis/daacs). Priority will be given to researchers using data from DAACs participating in Openscapes this year: LP DAAC, NSIDC, PO.DAAC, GES DISC, ASDC, ORNL DAAC, ASDC, OBDAAC, LAADS, GHRC, SEDAC, and ASF.
+
+Please submit one nomination per team, preferably by the team lead (faculty, principal investigator, etc). Participants from previous cohorts are welcome. We will confirm participation on a rolling basis.
+
+
+--->
+```
+
+## Learn more
+
+**Learn more about the [Openscapes Champions Program](https://openscapes.org/champions)**, [NASA Openscapes News](news.qmd), [stories from previous cohorts](https://openscapes.org/blog#category=champions), and [FAQs about forming your team](https://openscapes.org/faq). Questions? Contact Openscapes: julia at openscapes.org
+
+## 2025 NASA Champions Cohort
+
+NASA Champions 2025 - A welcome to NASA Earthdata and earthaccess
+
+[In 2025, we led our annual NASA Openscapes Champions program](https://nasa-openscapes.github.io/news/2025-11-27-nasa-champions-2025-summary), modified to be one 3-hour Community Call with lessons and discussion, and one 3-hour Coworking session where participants had access to our 2i2c JupyterHub and went into breakout rooms to work hands-on with NASA Openscapes Mentors and earthaccess developers. 
+
+## 2024 NASA Champions Cohort
+
+[Meet the 9 science teams](https://nasa-openscapes.github.io/2024-nasa-champions/) who participated in the 2024 NASA Champions Cohort, and learn more about their work in this blog post: [Data strategies for when to use cloud, coding strategies for parallelization, & first examples of big science in the Cloud](https://nasa-openscapes.github.io/news/2024-07-24-2024-nasa-champions-cohort/)
+
+## NASA Cohort 2023
+
+[Meet the 7 science teams](https://nasa-openscapes.github.io/2023-nasa-champions/) who participated in the 2023 NASA Champions Cohort, and learn more about their work in this blog post: [Exciting Progress for Research Teams using NASA Earthdata in the Cloud: 2023 NASA Openscapes Champions Wrap-up](https://nasa-openscapes.github.io/news/2023-08-01-nasa-champions/)
+
+## NASA Cohort 2022
+
+[Meet the 10 science teams](https://nasa-openscapes.github.io/2022-nasa-champions/) who participated in the 2022 NASA Champions Cohort, and learn more about their work in this blog post: [From downloading data to Cloud access: NASA Openscapes Champions Wrap-up](https://www.openscapes.org/blog/2022/05/12/nasa-2022-champions/)

@@ -1,0 +1,37 @@
+<center><a><img src="images/nasa-openscapes.png" alt="NASA logo to left of Openscapes logo" width="300px"/></a></center>
+
+<center>
+
+<h1>NASA Openscapes</h1>
+
+</center>
+
+<br>
+
+Earth science is changing. We support scientists using data from NASA Earthdata served from the Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.
+
+We are influenced and inspired by many leaders and community organizers, particularly in the climate and get out the vote movements. That means, we know this isn't just about us or an effort we can do alone. We are always looking to learn from, with, and for others.
+
+**News and Upcoming Events:**
+
+- [Openscapes Community Call: Open Communities in the age of AI](news/2026-10-01-community-call-open-communities-ai/), Thursday, October 1, 2026. See post for speakers, details and free registration.
+
+- [NASA Openscapes Suborbital Champions Coworking Sessions](news/2026-08-18-coworking-nasa-champions-2026/). EVS-4 teams, please join us for further support in Coworking Fall 2026!
+
+  - NASA Openscapes supports different suborbital science groups leveraging their expertise and programming - [2026 Champions Recap](news/2026-07-23-nasa-champions-2026/)
+
+- [Finding Solutions Faster by Hacking on Ideas with Openscapes at ESIP](news/2026-09-02-esip-hacking-on-ideas)
+
+- Recording & resources from [Greg Leptoukh Lecture Reprise by Julie Lowndes](news/2026-01-15-agu-leptoukh-award-julie-lowndes/)
+
+- Recent workshops
+
+  - [Airborne Data Applications for Invasive Species Mapping](news/2025-09-30-ornl-arset-workshop/)
+
+Learn about our recent work: [News](news.qmd) • [Presentations](/about.qmd#slides) • [Flywheel Preprint](https://nasa-openscapes.github.io/about.html#flywheel-preprint) • [White Paper: The Value of Hosted JupyterHubs](https://nasa-openscapes.github.io/about.html#white-paper-value-of-hosted-jupyterhubs)
+
+![](images/earthaccesslogo.png){fig-alt="hexagonal earthaccess logo, an illustrated earth as pixels with blue text arcing across" fig-align="left" width="30"} [earthaccess](https://earthaccess.readthedocs.io/en/latest/) python library • [Earth Science Data Simplified](https://www.earthdata.nasa.gov/learn/blog/earthaccess) (NASA Earthdata blog!)
+
+![](images/openscapes_hex.png){fig-alt="hexagonal Openscapes logo" fig-align="left" width="30"} [openscapes.cloud](https://openscapes.cloud) - A central location for Openscapes JupyterHub access and fledging information.
+
+Project announcements: [NASA](https://earthdata.nasa.gov/learn/openscapes) • [Openscapes](https://www.openscapes.org/blog/2021/03/10/nasa-announcement/) • Please connect with us on Mastodon [\@openscapes\@fosstodon.org](https://fosstodon.org/@openscapes) or join [our newsletter](https://docs.google.com/forms/d/e/1FAIpQLSdgVXRp3V-w94GPWkR31RUfyBl37EphdQSlCOcnyeNlf8OLWw/viewform)
