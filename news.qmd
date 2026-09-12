@@ -1,0 +1,43 @@
+---
+pagetitle: "News"
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<section class="news-page">
+  <div class="home-container">
+
+    <h2>News</h2>
+    <p>Updates from MOMENT, including research, team news, and community activities.</p>
+
+    <!-- 新闻 1：复制整个 article 可以增加新闻 -->
+    <article class="news-item">
+      <p class="news-date">September 2026</p>
+      <h2>在这里填写新闻标题</h2>
+
+      <p>
+        在这里填写新闻的简短介绍。
+      </p>
+
+      <!-- 有图片时取消注释，并修改图片路径和描述 -->
+      <!-- <img src="images/news-1.jpg" alt="图片描述"> -->
+
+      <!-- 有详细页面或外部报道时取消注释，并填写实际网址 -->
+      <!-- <a href="YOUR_NEWS_URL">Read more →</a> -->
+    </article>
+
+
+    <!-- 新闻 2 -->
+    <article class="news-item">
+      <p class="news-date">Month Year</p>
+      <h2>在这里填写新闻标题</h2>
+
+      <p>
+        在这里填写新闻的简短介绍。
+      </p>
+    </article>
+
+  </div>
+</section>
+```

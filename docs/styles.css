@@ -1,1 +1,754 @@
-/* css styles */
+/* MOMENT Lab
+ * 按页面整理；保留原文件最终生效的样式。
+ * 修改时请直接编辑对应规则。手机和平板样式集中在文件末尾。
+ */
+
+/* ===== 颜色变量 ===== */
+
+:root {
+  --home-blue: #064767;
+  --home-yellow: #ffbf23;
+  --home-coral: #ff795f;
+  --home-cream: #fdf9f2;
+}
+
+/* ===== 导航栏 ===== */
+
+#quarto-header .navbar {
+  background: #fff !important;
+  padding: 16px 0;
+  box-shadow: none;
+}
+
+#quarto-header .navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+#quarto-header .navbar-brand,
+#quarto-header .navbar .nav-link {
+  color: var(--home-blue) !important;
+  text-transform: none;
+}
+
+#quarto-header .navbar-brand img {
+  max-height: 70px;
+  width: auto;
+}
+
+#quarto-header .navbar .nav-link {
+  position: relative;
+  margin: 0 12px;
+  padding: 10px 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#quarto-header .navbar .nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 28px;
+  height: 3px;
+  border-radius: 3px;
+  background: var(--home-yellow);
+}
+
+#quarto-header .navbar .nav-link:hover {
+  color: var(--home-coral) !important;
+}
+
+#quarto-header .navbar-toggler {
+  color: var(--home-blue);
+  border-color: var(--home-blue);
+}
+
+#quarto-header .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23064767' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* ===== 通用容器、文字与按钮 ===== */
+
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  color: var(--home-blue);
+}
+
+.home-container h1,
+.home-container h2,
+.home-container h3 {
+  color: var(--home-blue);
+  border: 0;
+  padding: 0;
+  margin: 0 0 16px;
+  line-height: 1.15;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.home-container h1 {
+  font-size: clamp(32px, 4vw, 52px);
+}
+
+.home-container h2 {
+  font-size: clamp(26px, 3vw, 38px);
+}
+
+.home-container h3 {
+  font-size: 20px;
+}
+
+.home-container p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin: 0 0 16px;
+}
+
+.home-container .section-label {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.home-container .accent-text {
+  color: var(--home-coral);
+}
+
+.home-button {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 24px;
+  background: var(--home-blue);
+  color: #fff;
+  text-decoration: none;
+}
+
+.home-button:hover {
+  color: #fff;
+  opacity: 0.9;
+}
+
+/* ===== Home 首页 ===== */
+
+.home-hero {
+  background: transparent;
+}
+
+.hero-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 32px;
+  min-height: 480px;
+}
+
+.hero-layout .section-text {
+  padding: 40px 0;
+}
+
+.home-mission {
+  background: var(--home-cream);
+  padding: 48px 0;
+}
+
+.mission-layout {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  align-items: center;
+  gap: 48px;
+  min-height: 240px;
+}
+
+.mission-image {
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission-image img {
+  display: block;
+  max-width: 100%;
+  max-height: 260px;
+  object-fit: contain;
+}
+
+.home-focus {
+  background: #fff;
+  padding: 48px 0;
+}
+
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 32px;
+  row-gap: 24px;
+}
+
+.focus-item {
+  min-width: 0;
+  min-height: 250px;
+  padding: 0 24px;
+  text-align: center;
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+  align-items: start;
+}
+
+.focus-item + .focus-item {
+  border-left: 1px solid #e5ecef;
+}
+
+.focus-icon {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.focus-icon img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.home-involved {
+  padding: 40px 0;
+  background: #eef7f0;
+}
+
+.involved-layout {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  align-items: center;
+  gap: 48px;
+  min-height: 220px;
+}
+
+.involved-image {
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.involved-image img {
+  display: block;
+  max-width: 100%;
+  max-height: 240px;
+  object-fit: contain;
+}
+
+.home-mission .mission-layout {
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  min-height: 200px;
+  align-items: center;
+}
+
+.mission-heading .section-label {
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.mission-heading h2 {
+  color: var(--home-blue);
+  font-size: clamp(28px, 3vw, 38px);
+  line-height: 1.15;
+  margin: 0;
+}
+
+.mission-heading h2 span {
+  display: block;
+  margin-top: 6px;
+  color: var(--home-coral);
+  font-size: clamp(22px, 2.4vw, 30px);
+  line-height: 1.2;
+}
+
+.mission-copy {
+  border-left: 1px solid #cddfdf;
+  padding-left: 32px;
+}
+
+.mission-copy p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.focus-item h3 {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.focus-item p {
+  margin: 0;
+}
+
+.home-hero .hero-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  object-fit: contain;
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+
+.home-hero .hero-image {
+  height: auto;
+  min-height: 0;
+}
+
+/* ===== Team 团队页面 ===== */
+
+.team-intro {
+  padding: 60px 0 40px;
+  background: #eef7f0;
+}
+
+.team-intro h1 {
+  font-size: clamp(32px, 4vw, 46px);
+}
+
+.team-intro p:not(.section-label) {
+  max-width: none;
+}
+
+.team-members {
+  padding: 16px 0 48px;
+}
+
+.team-member {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 48px;
+  align-items: start;
+  padding: 48px 0;
+}
+
+.team-member + .team-member {
+  border-top: 1px solid #e0e8e8;
+}
+
+.team-photo {
+  width: 100%;
+  min-height: 260px;
+  background: #f1f5f4;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.team-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.team-bio h3 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.team-bio .team-role {
+  color: var(--home-coral);
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.team-bio a {
+  color: var(--home-blue);
+  text-underline-offset: 4px;
+}
+
+.team-partners {
+  background: transparent;
+  padding: 48px 0;
+}
+
+.team-partners h2 {
+  font-size: clamp(26px, 3vw, 34px);
+  margin-bottom: 20px;
+}
+
+.team-partners p {
+  margin: 0 0 16px;
+  line-height: 1.7;
+}
+
+.team-partners p:last-child {
+  margin-bottom: 0;
+}
+
+/* ===== Projects 项目页面 ===== */
+
+.studies-intro {
+  padding: 56px 0 40px;
+  background: #eef7f0;
+}
+
+.studies-intro h1 {
+  font-size: clamp(32px, 4vw, 46px);
+  margin-bottom: 0;
+}
+
+.study-section {
+  padding: 48px 0;
+}
+
+.study-section + .study-section {
+  border-top: 1px solid #e0e8e8;
+}
+
+.study-heading {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.study-heading h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.study-status {
+  padding: 5px 14px;
+  border-radius: 20px;
+  background: #e6f4eb;
+  color: #286547;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.study-focus {
+  padding: 16px 0;
+  color: var(--home-blue);
+}
+
+.study-accordion {
+  margin-top: 16px;
+  border: 1px solid #dce6e6;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.study-accordion summary {
+  position: relative;
+  padding: 20px 56px 20px 24px;
+  background: #f5f8f7;
+  color: var(--home-blue);
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+
+.study-accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.study-accordion summary::after {
+  content: "+";
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.study-accordion[open] summary::after {
+  content: "−";
+}
+
+.study-accordion[open] summary {
+  border-bottom: 1px solid #dce6e6;
+}
+
+.study-accordion summary:hover {
+  background: #edf4f0;
+}
+
+.study-accordion summary:focus-visible {
+  outline: 3px solid var(--home-blue);
+  outline-offset: -3px;
+}
+
+.study-accordion-body {
+  padding: 24px;
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.study-accordion-body > :last-child {
+  margin-bottom: 0;
+}
+
+.study-accordion-body ul {
+  padding-left: 24px;
+}
+
+.study-accordion-body li {
+  margin-bottom: 10px;
+}
+
+.study-accordion-body ul ul {
+  margin-top: 10px;
+}
+
+.study-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 40px;
+  padding: 32px;
+  background: #eef7f0;
+  border-radius: 8px;
+}
+
+.study-contact h3 {
+  font-size: 17px;
+  margin-bottom: 12px;
+}
+
+.study-contact p {
+  margin-bottom: 0;
+}
+
+.study-contact .home-button {
+  margin-top: 20px;
+}
+
+.study-contact a:not(.home-button) {
+  color: var(--home-blue);
+  overflow-wrap: anywhere;
+  text-underline-offset: 4px;
+}
+
+.study-sponsors {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid #e0e8e8;
+}
+
+.study-sponsors ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 36px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 16px;
+}
+
+.sponsor-logos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px 48px;
+}
+
+.sponsor-logos img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 160px;
+  max-height: 60px;
+  object-fit: contain;
+}
+
+/* ===== Privacy Policy 隐私页面 ===== */
+
+.privacy-page {
+  box-sizing: border-box;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 56px 32px 72px;
+  color: var(--home-blue);
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.privacy-page h1 {
+  margin: 0 0 12px;
+  font-size: clamp(32px, 4vw, 44px);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--home-blue);
+}
+
+.privacy-updated {
+  margin-bottom: 32px;
+  color: #596c75;
+  font-size: 15px;
+}
+
+.privacy-page h2 {
+  margin: 36px 0 14px;
+  padding: 0;
+  border: 0;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--home-blue);
+  text-transform: none;
+}
+
+.privacy-page p {
+  margin: 0 0 16px;
+}
+
+.privacy-page ul {
+  padding-left: 24px;
+  margin-bottom: 20px;
+}
+
+.privacy-page li {
+  margin-bottom: 8px;
+}
+
+.privacy-page a {
+  color: var(--home-blue);
+  text-underline-offset: 4px;
+  overflow-wrap: anywhere;
+}
+
+/* ===== News 新闻页面 ===== */
+
+.news-page {
+  padding: 48px 0;
+}
+
+.news-item {
+  padding: 32px 0;
+}
+
+.news-item + .news-item {
+  border-top: 1px solid #e0e8e8;
+}
+
+.news-item .news-date {
+  color: #596c75;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.news-item h2 {
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+.news-item img {
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+  margin: 20px 0;
+}
+
+.news-item a {
+  color: var(--home-blue);
+  text-underline-offset: 4px;
+}
+
+/* ===== 手机和平板：768px 及以下 ===== */
+
+@media (max-width: 768px) {
+  .home-container {
+    padding: 0 24px;
+  }
+
+  .hero-layout,
+  .mission-layout {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .focus-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px 0;
+  }
+
+  .focus-item:nth-child(3) {
+    border-left: 0;
+  }
+
+  .involved-layout {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .home-mission .mission-layout {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .mission-copy {
+    border-left: 0;
+    border-top: 1px solid #cddfdf;
+    padding: 24px 0 0;
+  }
+
+  .home-hero .hero-image img {
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .team-intro {
+    padding: 40px 0 24px;
+  }
+
+  .team-member {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 32px 0;
+  }
+
+  .team-photo {
+    max-width: 240px;
+  }
+
+  .studies-intro {
+    padding: 40px 0 32px;
+  }
+
+  .study-contact {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 24px;
+  }
+
+  .study-accordion summary {
+    font-size: 18px;
+  }
+
+  .privacy-page {
+    padding: 36px 24px 48px;
+  }
+}
+
+/* ===== 小屏手机：480px 及以下 ===== */
+
+@media (max-width: 480px) {
+  .focus-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .focus-item + .focus-item {
+    border-left: 0;
+  }
+}

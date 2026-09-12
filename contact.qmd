@@ -1,0 +1,28 @@
+---
+pagetitle: "Contact Us"
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<section class="join-contact">
+  <div class="home-container">
+    <h2>Contact Us</h2>
+
+    <p>
+      Interested in joining our team, partnering with MOMENT, or
+      inviting us to a community event? We would love to hear from you.
+      Please reach out by email or phone.
+    </p>
+
+    <p>
+      <strong>Email:</strong>
+      <a href="mailto:bmao@lsuhsc.edu">bmao@lsuhsc.edu</a>
+    </p>
+
+    <p>
+      <strong>Phone:</strong> (504) 568-4800
+    </p>
+  </div>
+</section>
+```

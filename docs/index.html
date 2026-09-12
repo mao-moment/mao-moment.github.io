@@ -30,7 +30,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -45,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a562e0de97483cb86ece9d98fe455772.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1220f4de26d2f92fd7b2781aa19566d6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,15 +77,16 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="floating nav-fixed quarto-light">
+<body class="floating nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">MOMENT Lab</span>
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/logo_3_nobg.png" alt="" class="navbar-logo light-content">
+    <img src="./images/logo_3_nobg.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -100,31 +100,24 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.qmd"> 
-<span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./projects.qmd"> 
+    <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./team.qmd"> 
-<span class="menu-text">Team</span></a>
+    <a class="nav-link" href="./teams.html"> 
+<span class="menu-text">Teams</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.qmd"> 
-<span class="menu-text">Publications</span></a>
+    <a class="nav-link" href="./news.html"> 
+<span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./join.qmd"> 
-<span class="menu-text">Join Us</span></a>
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact Us</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/mao-moment"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./privacy.html"> 
+<span class="menu-text">Privacy Policy</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -134,134 +127,125 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Contents</h2>
-   
-  <ul>
-  <li><a href="#moment-lab" id="toc-moment-lab" class="nav-link active" data-scroll-target="#moment-lab">MOMENT Lab</a>
-  <ul class="collapse">
-  <li><a href="#mobile-optimized-and-momentary-interventions-for-health-equity" id="toc-mobile-optimized-and-momentary-interventions-for-health-equity" class="nav-link" data-scroll-target="#mobile-optimized-and-momentary-interventions-for-health-equity">Mobile, Optimized, and Momentary Interventions for Health Equity</a>
-  <ul class="collapse">
-  <li><a href="#right-support.-right-person.-right-moment." id="toc-right-support.-right-person.-right-moment." class="nav-link" data-scroll-target="#right-support.-right-person.-right-moment.">Right support. Right person. Right moment.</a></li>
-  </ul></li>
-  <li><a href="#our-mission" id="toc-our-mission" class="nav-link" data-scroll-target="#our-mission">Our Mission</a></li>
-  <li><a href="#what-we-do" id="toc-what-we-do" class="nav-link" data-scroll-target="#what-we-do">What We Do</a>
-  <ul class="collapse">
-  <li><a href="#understand-the-moment" id="toc-understand-the-moment" class="nav-link" data-scroll-target="#understand-the-moment">Understand the Moment</a></li>
-  <li><a href="#adapt-to-the-moment" id="toc-adapt-to-the-moment" class="nav-link" data-scroll-target="#adapt-to-the-moment">Adapt to the Moment</a></li>
-  <li><a href="#advance-health-equity" id="toc-advance-health-equity" class="nav-link" data-scroll-target="#advance-health-equity">Advance Health Equity</a></li>
-  </ul></li>
-  <li><a href="#research-areas" id="toc-research-areas" class="nav-link" data-scroll-target="#research-areas">Research Areas</a></li>
-  <li><a href="#our-approach" id="toc-our-approach" class="nav-link" data-scroll-target="#our-approach">Our Approach</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">MOMENT Lab</h1>
-</div>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
+<section class="home-hero">
+  <div class="home-container hero-layout">
+
+    <div class="section-text">
+      <p class="section-label">WHO WE ARE</p>
+      <h2>Working with communities for healthier lives.</h2>
+      <p>MOMENT (Mobile, Optimized, and Momentary Interventions for Health Equity) is a research initiative started by researchers at the LSU Health Sciences Center New Orleans. We work with communities to better understand the health challenges people face in everyday life and to develop practical ways to support them.</p>
+      
+      <a class="home-button" href="./projects.html">Learn More →</a>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/people.png" alt="">
+    </div>
+
   </div>
-  
-
-
-</header>
-
-
-<section id="moment-lab" class="level1">
-<h1>MOMENT Lab</h1>
-<section id="mobile-optimized-and-momentary-interventions-for-health-equity" class="level2">
-<h2 class="anchored" data-anchor-id="mobile-optimized-and-momentary-interventions-for-health-equity">Mobile, Optimized, and Momentary Interventions for Health Equity</h2>
-<section id="right-support.-right-person.-right-moment." class="level3">
-<h3 class="anchored" data-anchor-id="right-support.-right-person.-right-moment.">Right support. Right person. Right moment.</h3>
-<p>The MOMENT Lab develops and evaluates adaptive digital health and communication interventions designed to respond to individuals’ changing needs, contexts, and risks over time.</p>
-<p>Our work integrates <strong>digital health, adaptive interventions, health communication, behavioral science, and artificial intelligence</strong> to improve cancer prevention and care, with a particular focus on populations and communities experiencing health disparities.</p>
-<p>We study how health needs change across people, places, and moments—and how interventions can adapt in response.</p>
-</section>
-</section>
-<section id="our-mission" class="level2">
-<h2 class="anchored" data-anchor-id="our-mission">Our Mission</h2>
-<p>Our mission is to develop <strong>timely, tailored, and scalable health interventions</strong> that improve access to prevention and care and reduce health disparities.</p>
-<p>We aim to move beyond one-size-fits-all approaches by identifying:</p>
-<ul>
-<li><strong>when</strong> support is needed,</li>
-<li><strong>what</strong> type of support is most appropriate,</li>
-<li><strong>how</strong> that support should be delivered, and</li>
-<li><strong>for whom</strong> different intervention strategies work best.</li>
-</ul>
-</section>
-<section id="what-we-do" class="level2">
-<h2 class="anchored" data-anchor-id="what-we-do">What We Do</h2>
-<section id="understand-the-moment" class="level3">
-<h3 class="anchored" data-anchor-id="understand-the-moment">Understand the Moment</h3>
-<p>We use longitudinal and real-time data to understand how psychological, behavioral, social, and environmental factors shape health behaviors and healthcare engagement.</p>
-<p>Our work includes approaches such as ecological momentary assessment (EMA), intensive longitudinal data, and dynamic risk modeling.</p>
-</section>
-<section id="adapt-to-the-moment" class="level3">
-<h3 class="anchored" data-anchor-id="adapt-to-the-moment">Adapt to the Moment</h3>
-<p>We develop interventions that adapt the <strong>timing, content, intensity, and mode of support</strong> based on individuals’ changing needs.</p>
-<p>Our work includes:</p>
-<ul>
-<li>Just-in-time adaptive interventions (JITAIs)</li>
-<li>Mobile health interventions</li>
-<li>Adaptive messaging</li>
-<li>Conversational agents and chatbots</li>
-<li>AI-supported health communication</li>
-<li>Digital and human-supported intervention models</li>
-</ul>
-</section>
-<section id="advance-health-equity" class="level3">
-<h3 class="anchored" data-anchor-id="advance-health-equity">Advance Health Equity</h3>
-<p>We focus on developing accessible and scalable approaches for populations that experience barriers to prevention, screening, treatment, and supportive care.</p>
-<p>Our research particularly emphasizes rural, socioeconomically disadvantaged, and medically underserved populations.</p>
-</section>
-</section>
-<section id="research-areas" class="level2">
-<h2 class="anchored" data-anchor-id="research-areas">Research Areas</h2>
-<p>Our current research spans several interconnected areas:</p>
-<ul>
-<li>Cancer prevention and early detection</li>
-<li>Tobacco cessation</li>
-<li>Colorectal cancer screening</li>
-<li>Digital health and mHealth</li>
-<li>Adaptive interventions</li>
-<li>Ecological momentary assessment</li>
-<li>Tailored health communication</li>
-<li>Artificial intelligence in health communication</li>
-<li>Health disparities and health equity</li>
-</ul>
-</section>
-<section id="our-approach" class="level2">
-<h2 class="anchored" data-anchor-id="our-approach">Our Approach</h2>
-<p>The MOMENT Lab brings together behavioral science, communication science, data science, and digital health to answer a central question:</p>
-<blockquote class="blockquote">
-<p><strong>How can we deliver the right support to the right person at the right moment?</strong></p>
-</blockquote>
-<p>Our long-term goal is to develop intervention systems that are responsive to people’s real-world experiences while remaining practical, scalable, and equitable.</p>
-
-
-</section>
 </section>
 
-</main> <!-- /main -->
+
+<section class="home-mission">
+  <div class="home-container mission-layout">
+
+    <div class="mission-heading">
+      <p class="section-label">OUR MISSION</p>
+
+      <h2>
+        Our goal is simple:
+        <span style="color: #ff795f; display: inline; font-size: inherit;">to provide the right support at the moment you need it.</span>
+      </h2>
+    </div>
+
+    <div class="mission-copy">
+      <p>
+        By bringing together community members, healthcare providers, local organizations, and researchers, we aim to improve cancer prevention and care and help people live healthier lives. We use community input, health communication, and digital tools to make support easier to access, more personal, and more responsive.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section class="home-focus">
+  <div class="home-container">
+
+    <p class="section-label">WHAT WE FOCUS ON</p>
+    <h2></h2>
+
+    <div class="focus-grid">
+
+      <div class="focus-item">
+        <div class="focus-icon icon-green">
+          <img src="images/focus_1.png" alt="">
+        </div>
+        <h3>Cancer Screening &amp; Early Detection</h3>
+        <p>We connect people with free at-home screening kits and provide timely navigation.</p>
+      </div>
+
+      <div class="focus-item">
+        <div class="focus-icon icon-coral">
+          <img src="images/focus_2.png" alt="">
+        </div>
+        <h3>Tobacco Cessation</h3>
+        <p>We develop personalized approaches to help people quit smoking and stay smoke-free.</p>
+      </div>
+
+      <div class="focus-item">
+        <div class="focus-icon icon-yellow">
+          <img src="images/focus_3.png" alt="">
+        </div>
+        <h3>Digital &amp; Personalized Support</h3>
+        <p>We use digital technology to understand people’s changing needs and provide the right support at the right moment.</p>
+      </div>
+
+      <div class="focus-item">
+        <div class="focus-icon icon-blue">
+          <img src="images/focus_4.png" alt="">
+        </div>
+        <h3>Health Education &amp; Communication</h3>
+        <p>We provide culturally relevant health education workshops to help people understand their options, make informed decisions, and take action for their health.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="home-involved">
+  <div class="home-container involved-layout">
+
+    <div class="section-text">
+      <p class="section-label">GET INVOLVED</p>
+      <h2>Want to work with us?</h2>
+      <p>We welcome students, researchers, healthcare professionals, organizations, and community members who are interested in working with us to improve cancer prevention and care. We are also interested in participating in community events, health fairs, outreach activities, and local programs where we can connect with residents, share health information, and learn directly from the community.</p>
+      
+      <p>Interested in joining MOMENT, partnering with us, or inviting our team to a community event? Get in touch with us.</p>
+
+      <a class="home-button" href="./contact.html">Get Involved →</a>
+    </div>
+
+    <div class="involved-image">
+      <img src="images/involved.png" alt="">
+    </div>
+
+  </div>
+</section>
+
+
+
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -672,7 +656,7 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Built with <a href="https://quarto.org/">Quarto</a></p>
+<p><a href="./privacy.html">Privacy Policy</a> · Built with <a href="https://quarto.org/">Quarto</a></p>
 </div>
   </div>
 </footer>

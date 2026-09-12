@@ -1,0 +1,86 @@
+---
+pagetitle: "Teams"
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<!-- 第一部分：团队介绍 -->
+<section class="team-intro">
+  <div class="home-container">
+    <h1>Our Team</h1>
+
+    <p>
+      MOMENT brings together researchers, students, healthcare
+      professionals, and community partners who share a common goal:
+      to provide the right support at the right moment.
+    </p>
+  </div>
+</section>
+
+
+<!-- 第二部分：核心团队 -->
+<section class="team-members">
+  <div class="home-container">
+
+    <h2>Core Team</h2>
+
+    <!-- 复制整个 article 可以添加成员 -->
+    <article class="team-member">
+
+      <div class="team-photo">
+        <img src="images/bingjing.jpg" alt="Bingjing Mao, Ph.D.">
+      </div>
+
+      <div class="team-bio">
+        <h3>Bingjing Mao, Ph.D.</h3>
+        <p class="team-role">Assistant Professor</p>
+
+        <p>
+          Bingjing Mao is an Assistant Professor at the LSU Health
+          Sciences Center New Orleans and leads MOMENT. Her research
+          focuses on integrating digital tools with person-led support
+          to make health services more accessible, responsive, and
+          easier to use in everyday life.
+        </p>
+
+        <p>
+          With a background in health communication, her work also
+          examines how clear and tailored messages can help people
+          make informed health decisions and stay engaged in cancer
+          prevention and care.
+        </p>
+
+        <a href="mailto:bmao@lsuhsc.edu">Email</a>
+      </div>
+
+    </article>
+
+  </div>
+</section>
+
+
+<!-- 第三部分：社区合作伙伴 -->
+<section class="team-partners">
+  <div class="home-container">
+
+    <h2>Community Partners &amp; Collaborators</h2>
+
+    <p>
+      MOMENT works closely with healthcare and community partners
+      across Louisiana, including Lallie Kemp Regional Medical Center,
+      Our Lady of the Angels Hospital (OLOA), the Louisiana Cancer
+      Prevention and Control Programs (LCP), and the Tobacco Control
+      Initiatives (TCI).
+    </p>
+
+    <p>
+      These partnerships connect our research with local communities
+      and healthcare settings, helping us better understand community
+      needs, reach people where they live and receive care, and develop
+      programs that can work in real-world settings.
+    </p>
+
+  </div>
+</section>
+```

@@ -8,26 +8,27 @@ website:
 
   page-footer:
     left: "&copy; 2026 MOMENT Lab"
-    right: "Built with [Quarto](https://quarto.org/)"
+    right: "[Privacy Policy](privacy.qmd) · Built with [Quarto](https://quarto.org/)"
 
   navbar:
+    pinned: true
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Research"
-        href: research.qmd
       - text: "Projects"
         href: projects.qmd
-      - text: "Team"
-        href: team.qmd
-      - text: "Publications"
-        href: publications.qmd
-      - text: "Join Us"
-        href: join.qmd
-
-    right:
-      - icon: github
-        href: https://github.com/mao-moment
+      - text: "Teams"
+        href: teams.qmd
+      - text: "News"
+        href: news.qmd
+      - text: "Contact Us"
+        href: contact.qmd
+      - text: "Privacy Policy"
+        href: privacy.qmd
+      
+    
+    logo: images/logo_3_nobg.png
+    title: false
 
 format:
   html:

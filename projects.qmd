@@ -1,0 +1,146 @@
+---
+pagetitle: "Projects"
+page-layout: custom
+toc: false
+---
+
+```{=html}
+
+<!-- FITtrack：复制整个 section 可以添加其他项目 -->
+<section class="study-section">
+  <div class="home-container">
+
+    <div class="study-heading">
+      <h2>FITtrack</h2>
+      <span class="study-status">Active</span>
+    </div>
+
+    <div class="study-description">
+      <p>
+        FITtrack explores the challenges people in rural Louisiana may
+        face when completing an at-home colorectal cancer screening test.
+        Through brief text-message check-ins, we learn where participants
+        are in the screening process and what may be making it difficult
+        to take the next step.
+      </p>
+
+      <p>
+        What we learn helps us develop more timely and personalized support
+        throughout the screening process—from getting a test kit, to
+        completing and returning it, to understanding the results.
+      </p>
+    </div>
+
+    <p class="study-focus">
+      <strong>Focus:</strong>
+      Colorectal cancer screening · Text messaging · Personalized support
+    </p>
+
+
+    <!-- 点击展开：参与者可以获得什么 -->
+    <details class="study-accordion">
+      <summary>What we will provide?</summary>
+
+      <div class="study-accordion-body">
+        <p>
+          Participants may receive a free at-home screening kit,
+          text-based navigation support, and up to $65 in compensation
+          for completing study activities.
+        </p>
+      </div>
+    </details>
+
+
+    <!-- 点击展开：参与条件 -->
+    <details class="study-accordion">
+      <summary>Who may be eligible?</summary>
+
+      <div class="study-accordion-body">
+        <p>You may be eligible if you:</p>
+
+        <ul>
+          <li>
+            Live in a suburban or rural area of Louisiana, based on ZIP
+            code and HRSA rural-area definitions, and do not consider
+            yourself an urban resident
+          </li>
+
+          <li>Are 45–75 years old</li>
+
+          <li>
+            Do not have a personal history of colorectal cancer or
+            certain types of colorectal polyps
+          </li>
+
+          <li>
+            Are not currently up to date with colorectal cancer screening,
+            including:
+            <ul>
+              <li>
+                stool-based testing such as gFOBT, FIT, or FIT-DNA
+                within the past year
+              </li>
+              <li>flexible sigmoidoscopy within the past 5 years</li>
+              <li>CT colonography within the past 5 years</li>
+              <li>colonoscopy within the past 10 years</li>
+            </ul>
+          </li>
+
+          <li>Speak English</li>
+
+          <li>
+            Have access to a cell phone or smartphone that can send
+            and receive text messages
+          </li>
+        </ul>
+
+        <p>
+          <strong>Note:</strong>
+          This study requires U.S. citizenship and Social Security
+          number verification.
+        </p>
+      </div>
+    </details>
+
+
+    <!-- 参与方式 -->
+    <div class="study-contact">
+
+      <div>
+        <h3>Interested?</h3>
+        <p>
+          Complete the study screener to see whether you may be eligible.
+        </p>
+
+        <!-- 将 YOUR_SCREENER_URL 替换为问卷网址，再取消注释 -->
+        <!--
+        <a class="home-button" href="YOUR_SCREENER_URL">
+          Complete the study screener →
+        </a>
+        -->
+      </div>
+
+      <div>
+        <h3>Questions?</h3>
+        <p>
+          Email <a href="mailto:fittrack@lsuhsc.edu">fittrack@lsuhsc.edu</a>
+          or call XXX.
+        </p>
+      </div>
+
+    </div>
+
+
+    <!-- 资助单位 -->
+    <div class="study-sponsors">
+      <p class="section-label">PROJECTS ARE SPONSORED BY</p>
+
+      <div class="sponsor-logos">
+        <img src="images/nih.png" alt="NIH">
+        <img src="images/lsuhsc.png" alt="LSUHSC School of Public Health">
+      </div>
+    </div>
+
+  </div>
+</section>
+```

@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://mao-moment.github.io/teams.html</loc>
+    <lastmod>2026-09-12T01:16:29.539Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mao-moment.github.io/privacy.html</loc>
+    <lastmod>2026-09-12T01:18:21.372Z</lastmod>
+  </url>
+  <url>
     <loc>https://mao-moment.github.io/index.html</loc>
-    <lastmod>2026-09-07T07:23:36.367Z</lastmod>
+    <lastmod>2026-09-12T01:12:09.681Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mao-moment.github.io/contact.html</loc>
+    <lastmod>2026-09-12T01:08:44.543Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mao-moment.github.io/news.html</loc>
+    <lastmod>2026-09-12T01:17:21.125Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mao-moment.github.io/projects.html</loc>
+    <lastmod>2026-09-12T01:27:20.720Z</lastmod>
   </url>
 </urlset>

@@ -1,76 +1,112 @@
 ---
-title: "MOMENT Lab"
-title-block-banner: false
+pagetitle: "MOMENT Lab"
+title-block-style: none
+page-layout: custom
+toc: false
 ---
 
-# MOMENT Lab
+```{=html}
+<section class="home-hero">
+  <div class="home-container hero-layout">
 
-## Mobile, Optimized, and Momentary Interventions for Health Equity
+    <div class="section-text">
+      <p class="section-label">WHO WE ARE</p>
+      <h2>Working with communities for healthier lives.</h2>
+      <p>MOMENT (Mobile, Optimized, and Momentary Interventions for Health Equity) is a research initiative started by researchers at the LSU Health Sciences Center New Orleans. We work with communities to better understand the health challenges people face in everyday life and to develop practical ways to support them.</p>
+      
+      <a class="home-button" href="projects.qmd">Learn More →</a>
+    </div>
 
-### Right support. Right person. Right moment.
+    <div class="hero-image">
+      <img src="images/people.png" alt="">
+    </div>
 
-The MOMENT Lab develops and evaluates adaptive digital health and communication interventions designed to respond to individuals' changing needs, contexts, and risks over time.
+  </div>
+</section>
 
-Our work integrates **digital health, adaptive interventions, health communication, behavioral science, and artificial intelligence** to improve cancer prevention and care, with a particular focus on populations and communities experiencing health disparities.
 
-We study how health needs change across people, places, and moments—and how interventions can adapt in response.
+<section class="home-mission">
+  <div class="home-container mission-layout">
 
-## Our Mission
+    <div class="mission-heading">
+      <p class="section-label">OUR MISSION</p>
 
-Our mission is to develop **timely, tailored, and scalable health interventions** that improve access to prevention and care and reduce health disparities.
+      <h2>
+        Our goal is simple:
+        <span style="color: #ff795f; display: inline; font-size: inherit;">to provide the right support at the moment you need it.</span>
+      </h2>
+    </div>
 
-We aim to move beyond one-size-fits-all approaches by identifying:
+    <div class="mission-copy">
+      <p>
+        By bringing together community members, healthcare providers, local organizations, and researchers, we aim to improve cancer prevention and care and help people live healthier lives. We use community input, health communication, and digital tools to make support easier to access, more personal, and more responsive.
+      </p>
+    </div>
 
-- **when** support is needed,
-- **what** type of support is most appropriate,
-- **how** that support should be delivered, and
-- **for whom** different intervention strategies work best.
+  </div>
+</section>
 
-## What We Do
+<section class="home-focus">
+  <div class="home-container">
 
-### Understand the Moment
+    <p class="section-label">WHAT WE FOCUS ON</p>
+    <h2></h2>
 
-We use longitudinal and real-time data to understand how psychological, behavioral, social, and environmental factors shape health behaviors and healthcare engagement.
+    <div class="focus-grid">
 
-Our work includes approaches such as ecological momentary assessment (EMA), intensive longitudinal data, and dynamic risk modeling.
+      <div class="focus-item">
+        <div class="focus-icon icon-green">
+          <img src="images/focus_1.png" alt="">
+        </div>
+        <h3>Cancer Screening & Early Detection</h3>
+        <p>We connect people with free at-home screening kits and provide timely navigation.</p>
+      </div>
 
-### Adapt to the Moment
+      <div class="focus-item">
+        <div class="focus-icon icon-coral">
+          <img src="images/focus_2.png" alt="">
+        </div>
+        <h3>Tobacco Cessation</h3>
+        <p>We develop personalized approaches to help people quit smoking and stay smoke-free.</p>
+      </div>
 
-We develop interventions that adapt the **timing, content, intensity, and mode of support** based on individuals' changing needs.
+      <div class="focus-item">
+        <div class="focus-icon icon-yellow">
+          <img src="images/focus_3.png" alt="">
+        </div>
+        <h3>Digital & Personalized Support</h3>
+        <p>We use digital technology to understand people’s changing needs and provide the right support at the right moment.</p>
+      </div>
 
-Our work includes:
+      <div class="focus-item">
+        <div class="focus-icon icon-blue">
+          <img src="images/focus_4.png" alt="">
+        </div>
+        <h3>Health Education & Communication</h3>
+        <p>We provide culturally relevant health education workshops to help people understand their options, make informed decisions, and take action for their health.</p>
+      </div>
 
-- Just-in-time adaptive interventions (JITAIs)
-- Mobile health interventions
-- Adaptive messaging
-- Conversational agents and chatbots
-- AI-supported health communication
-- Digital and human-supported intervention models
+    </div>
+  </div>
+</section>
 
-### Advance Health Equity
+<section class="home-involved">
+  <div class="home-container involved-layout">
 
-We focus on developing accessible and scalable approaches for populations that experience barriers to prevention, screening, treatment, and supportive care.
+    <div class="section-text">
+      <p class="section-label">GET INVOLVED</p>
+      <h2>Want to work with us?</h2>
+      <p>We welcome students, researchers, healthcare professionals, organizations, and community members who are interested in working with us to improve cancer prevention and care. We are also interested in participating in community events, health fairs, outreach activities, and local programs where we can connect with residents, share health information, and learn directly from the community.</p>
+      
+      <p>Interested in joining MOMENT, partnering with us, or inviting our team to a community event? Get in touch with us.</p>
 
-Our research particularly emphasizes rural, socioeconomically disadvantaged, and medically underserved populations.
+      <a class="home-button" href="contact.qmd">Get Involved →</a>
+    </div>
 
-## Research Areas
+    <div class="involved-image">
+      <img src="images/involved.png" alt="">
+    </div>
 
-Our current research spans several interconnected areas:
-
-- Cancer prevention and early detection
-- Tobacco cessation
-- Colorectal cancer screening
-- Digital health and mHealth
-- Adaptive interventions
-- Ecological momentary assessment
-- Tailored health communication
-- Artificial intelligence in health communication
-- Health disparities and health equity
-
-## Our Approach
-
-The MOMENT Lab brings together behavioral science, communication science, data science, and digital health to answer a central question:
-
-> **How can we deliver the right support to the right person at the right moment?**
-
-Our long-term goal is to develop intervention systems that are responsive to people's real-world experiences while remaining practical, scalable, and equitable.
+  </div>
+</section>
+```
