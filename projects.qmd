@@ -109,7 +109,11 @@ toc: false
       <div>
         <h3>Interested?</h3>
         <p>
-          Complete the study screener to see whether you may be eligible.
+          Complete the
+          <a href="https://redcap.lsuhsc.edu/redcap/surveys/?s=NWME7RCTXCNA7JFJ" target="_blank" rel="noopener noreferrer">
+            study screener
+          </a>
+          to see whether you may be eligible.
         </p>
 
         <!-- 将 YOUR_SCREENER_URL 替换为问卷网址，再取消注释 -->
@@ -124,7 +128,7 @@ toc: false
         <h3>Questions?</h3>
         <p>
           Email <a href="mailto:fittrack@lsuhsc.edu">fittrack@lsuhsc.edu</a>
-          or call XXX.
+          or call 504-323-4890.
         </p>
       </div>
 
@@ -133,7 +137,7 @@ toc: false
 
     <!-- 资助单位 -->
     <div class="study-sponsors">
-      <p class="section-label">PROJECTS ARE SPONSORED BY</p>
+      <p class="section-label">PROJECTS ARE FUNDED BY</p>
 
       <div class="sponsor-logos">
         <img src="images/nih.png" alt="NIH">
